@@ -151,6 +151,7 @@ export const data = {
             "Rating": 900
         },
         {
+            "Question": "Team",
             "Link": "https://codeforces.com/contest/231/problem/A",
             "Rating": 800
         },
