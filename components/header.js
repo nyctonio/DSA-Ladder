@@ -4,7 +4,6 @@ const header = ({ toggle, toggleMenu }) => {
         toggleMenu(!toggle);
     };
 
-
     return (
         <header class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600">
             <div class="flex items-center">
@@ -15,7 +14,7 @@ const header = ({ toggle, toggleMenu }) => {
                     </svg>
                 </button>
 
-                <div class="relative mx-4 lg:mx-0">
+                <div class="relative w-full mx-4 lg:mx-0">
                     {/* <span class="absolute inset-y-0 left-0 pl-3 flex items-center">
                         <svg class="h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none">
                             <path
@@ -28,7 +27,9 @@ const header = ({ toggle, toggleMenu }) => {
                         placeholder="Search" /> */}
                 </div>
             </div>
-
+            <div className="font-mono text-2xl">
+                Thecodermaina
+            </div>
             <div class="flex items-center">
                 <div className="mr-3 cursor-pointer">
                     <svg

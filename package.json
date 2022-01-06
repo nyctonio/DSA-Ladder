@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-tailwind/react": "0.3.4",
     "@tailwindcss/forms": "^0.4.0",
     "next": "latest",
     "react": "^17.0.2",
