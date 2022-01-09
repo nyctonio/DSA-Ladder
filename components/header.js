@@ -28,7 +28,7 @@ const header = ({ toggle, toggleMenu }) => {
                 </div>
             </div>
             <div className="font-mono text-2xl">
-                Thecodermaina
+                Thecodemaniac
             </div>
             <div class="flex items-center">
                 <div className="mr-3 cursor-pointer">

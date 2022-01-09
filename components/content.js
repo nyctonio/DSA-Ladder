@@ -12,8 +12,8 @@ const content = ({ name }) => {
     // console.log(data[name]);
     if (!newData) {
         return (
-            <div>
-                404
+            <div className="flex justify-center items-center w-full h-full">
+                404 - coming soon....
             </div>
         )
     }
@@ -25,7 +25,7 @@ const content = ({ name }) => {
                     <div className="mt-8"></div>
                     <div className="flex h-full w-full flex-col mt-8">
                         <div className="-my-2 py-2 h-full sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                            <ScrollContainer className="overflow-x-scroll md:overflow-x-hidden" style={{ height: "75vh" }}
+                            <ScrollContainer className="overflow-x-scroll" style={{ height: "73vh" }}
                                 className="align-middle inline-block min-w-full shadow sm:rounded-lg border-b border-gray-200">
                                 <table className="min-w-full text-md">
                                     <thead>

@@ -1,4 +1,5 @@
 import List from "./list";
+import Sidedivider from "./sidedivider"
 import Script from 'next/script'
 import { useState, useEffect } from "react";
 
@@ -52,10 +53,16 @@ const sidebar = ({ setQuestion, toggle, toggleMenu }) => {
                     </div>
                 </div>
                 <nav className="mt-10">
+                    <Sidedivider name={'LEVEL'} />
                     <List name={'EASY'} />
+                    <List name={'SOON...'} />
+                    <Sidedivider name={'RATING'} />
                     <List name={'800'} />
-                    <List name={'STRINGS'} />
+                    <List name={'SOON...'} />
+                    <Sidedivider name={'TOPIC'} />
                     <List name={'MATH'} />
+                    <List name={'STRINGS'} />
+                    <List name={'SOON...'} />
                 </nav>
                 <div className="text-white bottom-0"></div>
             </div>

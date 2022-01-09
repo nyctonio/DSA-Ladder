@@ -45,10 +45,9 @@ function MyApp({ Component, pageProps }) {
     />
     <div>
       <Head>
-        <title>thecodermaina</title>
+        <title>thecodemaniac</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className='font-mono'>
         <div x-data="{ sidebarOpen: false }" className="flex h-screen bg-gray-200">
           <Sidebar toggle={toggle} toggleMenu={toggleMenu} />
@@ -58,8 +57,6 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </div>
-
-
     </div></>
 }
 
