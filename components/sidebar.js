@@ -53,9 +53,9 @@ const sidebar = ({ setQuestion, toggle, toggleMenu }) => {
                     </div>
                 </div>
                 <nav className="mt-10">
-                    <Sidedivider name={'LEVEL'} />
+                    {/* <Sidedivider name={'LEVEL'} />
                     <List name={'EASY'} />
-                    <List name={'SOON...'} />
+                    <List name={'SOON...'} /> */}
                     <Sidedivider name={'RATING'} />
                     <List name={'800'} />
                     <List name={'SOON...'} />
