@@ -1,4 +1,7 @@
 import Link from "next/dist/client/link";
+import Logo from "assets/Logo3.svg";
+import Image from "next/image";
+
 
 const header = ({ toggle, toggleMenu }) => {
     const toggleState = () => {
@@ -6,7 +9,7 @@ const header = ({ toggle, toggleMenu }) => {
     };
 
     return (
-        <header class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600">
+        <header class="flex justify-between items-center py-1 px-6 bg-white border-b-4 border-indigo-600">
             <div class="flex items-center">
                 <button onClick={toggleState} class="text-gray-500 focus:outline-none">
                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,8 +32,13 @@ const header = ({ toggle, toggleMenu }) => {
                 </div>
             </div>
             <Link href='/'>
-                <div className="cursor-pointer font-mono text-2xl">
-                    Thecodemaniac
+                <div className="max-h-24 cursor-pointer font-mono text-2xl">
+                    <Image
+                        src={Logo}
+                        height={60}
+                        width={220}
+                        alt="thecodemaniac"
+                    />
                 </div>
             </Link>
             <div class="flex items-center">
