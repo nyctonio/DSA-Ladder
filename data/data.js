@@ -1209,7 +1209,7 @@ export const data = {
             "Rating": "900"
         }
     ],
-    "Strings-1": [
+    "Strings-i": [
         {
             "Question": "Translation",
             "Link": "https://codeforces.com/problemset/problem/41/A",
@@ -1361,7 +1361,7 @@ export const data = {
             "Rating": "900"
         }
     ],
-    "Strings-2": [
+    "Strings-ii": [
         {
             "Question": "Erasing Zeroes",
             "Link": "https://codeforces.com/problemset/problem/1303/A",
@@ -1513,7 +1513,7 @@ export const data = {
             "Rating": "1100"
         }
     ],
-    "Math-1": [
+    "Math-i": [
         {
             "Question": "Watermelon",
             "Link": "https://codeforces.com/problemset/problem/4/A",
@@ -1665,7 +1665,7 @@ export const data = {
             "Rating": "900"
         }
     ],
-    "Math-2": [
+    "Math-ii": [
         {
             "Question": "Consecutive Sum Riddle",
             "Link": "https://codeforces.com/problemset/problem/1594/A",
