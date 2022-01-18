@@ -25,7 +25,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/800">
+            <Link href="/800-MISC">
               <div class="bg-gray-900 cursor-pointer shadow-lg rounded p-3">
                 <div class="group relative">
                   <img class="w-full md:w-72 block rounded" src="https://upload.wikimedia.org/wikipedia/en/c/ca/Tycho_-_Awake.png" alt="" />
@@ -41,7 +41,7 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/MATH">
+            <Link href="/Math-i">
               <div class="bg-gray-900 mb-20 md:mb-0 cursor-pointer shadow-lg rounded p-3">
                 <div class="group relative">
                   <img class="w-full md:w-72 block rounded" src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
