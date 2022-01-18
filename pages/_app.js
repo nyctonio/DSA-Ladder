@@ -55,7 +55,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="Get the most amazing set of problems, all at once. We provide you a whole list of code based questions segregated in terms of level, rating and topics. Start coding today!" key="ogdesc" />
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content="https://twitter/nyctonio" key="twhandle" />
-        <meta property="og:image" content="https://i.ibb.co/5KJV8wp/Screenshot-2022-01-18-113633.png" key="ogimage" />
+        <meta property="og:image" itemProp='image' content="https://i.ibb.co/5KJV8wp/Screenshot-2022-01-18-113633.png" key="ogimage" />
         <meta property="og:site_name" content="thecodemaniac.com" key="ogsitename" />
       </Head>
       <div className='font-mono'>
