@@ -1,11 +1,11 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import { useState } from "react";
-import Sidebar from "/components/sidebar"
-import Header from "/components/header"
-import * as gtag from 'lib/gtag'
-import Script from 'next/script'
-import { useRouter } from 'next/router'
+import Sidebar from "/components/sidebar";
+import Header from "/components/header";
+import * as gtag from 'lib/gtag';
+import Script from 'next/script';
+import { useRouter } from 'next/router';
 import { useEffect } from "react";
 import Logo from "assets/Logo3.svg";
 

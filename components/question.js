@@ -1,3 +1,7 @@
+import { useState, useEffect } from "react";
+import Cookie from "js-cookie";
+import { parseCookies } from "../lib/parseCookies";
+
 const question = ({ name, link, rating, sno }) => {
     return (
         <tr>
@@ -36,5 +40,14 @@ const question = ({ name, link, rating, sno }) => {
         </tr>
     );
 }
+
+question.getInitialProps = async ({ req }) => {
+    const cookies = parseCookies(req);
+
+    return {
+        initialRememberValue: cookies.rememberMe
+    };
+};
+
 
 export default question;
