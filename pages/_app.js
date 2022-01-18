@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content="https://twitter/nyctonio" key="twhandle" />
         <meta property="og:image" content={Logo} key="ogimage" />
-        <meta property="og:site_name" content="thecodingmaniac.com" key="ogsitename" />
+        <meta property="og:site_name" content="thecodemaniac.com" key="ogsitename" />
       </Head>
       <div className='font-mono'>
         <div x-data="{ sidebarOpen: false }" className="flex h-screen bg-gray-200">
