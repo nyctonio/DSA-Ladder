@@ -7,6 +7,8 @@ import * as gtag from 'lib/gtag'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 import { useEffect } from "react";
+import Logo from "assets/Logo3.svg";
+
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -47,6 +49,14 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>thecodemaniac</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta property="og:title" content="The Coding Maniac" key="ogtitle" />
+        <meta property="og:description" content="Get the most amazing set of problems, all at once. We provide you a whole list of code based questions segregated in terms of level, rating and topics. Start coding today!" key="ogdesc" />
+        <meta name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:creator" content="https://twitter/nyctonio" key="twhandle" />
+        <meta property="og:image" content={Logo} key="ogimage" />
+        <meta property="og:site_name" content="thecodingmaniac.com" key="ogsitename" />
       </Head>
       <div className='font-mono'>
         <div x-data="{ sidebarOpen: false }" className="flex h-screen bg-gray-200">
