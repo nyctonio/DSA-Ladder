@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main class="overflow-y-scroll md:overflow-y-hidden grid place-items-center min-h-screen bg-gradient-to-t from-blue-200 to-indigo-900 p-5">
         <div>
-          <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-200 mb-5">DSA LADDERS FOR YOU..</h1>
+          <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-200 mb-5">LADDERS FOR YOU..</h1>
           <section class="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
             <Link href="/EASY">
