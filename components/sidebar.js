@@ -53,16 +53,16 @@ const sidebar = ({ setQuestion, toggle, toggleMenu }) => {
                     </div>
                 </div>
                 <nav className="mt-10">
-                    <Sidedivider name={'RATING'} />
-                    <List name={'800-MISC'} />
-                    <List name={'900-MISC'} />
-                    <List name={'SOON...'} />
                     <Sidedivider name={'TOPIC'} />
                     <List name={'Math-i'} />
                     <List name={'Math-ii'} />
                     <List name={'Strings-i'} />
                     <List name={'Strings-ii'} />
                     <List name={'Sortings'} />
+                    <List name={'SOON...'} />
+                    <Sidedivider name={'RATING'} />
+                    <List name={'800-MISC'} />
+                    <List name={'900-MISC'} />
                     <List name={'SOON...'} />
                     <Sidedivider name={'LEVEL'} />
                     <List name={'EASY'} />
