@@ -1,4 +1,3 @@
-
 import Link from "next/dist/client/link";
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
       <main class="overflow-y-scroll md:overflow-y-hidden grid place-items-center min-h-screen bg-gradient-to-t from-blue-200 to-indigo-900 p-5">
         <div>
           <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-200 mb-5">LADDERS FOR YOU...</h1>
-          <section class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <section class="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
             <Link href="/Math-i">
               <div class="bg-gray-900 cursor-pointer shadow-lg rounded p-3">
@@ -40,8 +39,6 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-
-
 
             <Link href="/EASY">
               <div class="bg-gray-900 mb-20 sm:mb-0 shadow-lg cursor-pointer rounded p-3">
