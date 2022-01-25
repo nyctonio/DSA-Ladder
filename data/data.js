@@ -1970,3 +1970,16 @@ export const data = {
         }
     ]
 }
+
+export const type = {
+    "EASY": "level",
+    // "MEDIUM": [],
+    // "HARD": [],
+    "800-MISC": "rating",
+    "900-MISC": "rating",
+    "Strings-i": "topic",
+    "Strings-ii": "topic",
+    "Math-i": "topic",
+    "Math-ii": "topic",
+    "Sorting": "topic",
+}
