@@ -12,7 +12,7 @@ const content = ({ name }) => {
     // console.log(data[name]);
     if (!newData) {
         return (
-            <div className="flex justify-center items-center w-full h-full">
+            <div style={{ height: '90vh' }} className="flex justify-center items-center w-full ">
                 404 - coming soon....
             </div>
         )
