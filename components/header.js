@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import Logo from "assets/Logo3.svg";
+import Logo from "assets/Sitelogo.svg";
 import Image from "next/image";
 import Whatsapp from "assets/whatsapp.svg";
 import Instagram from "assets/instagram.svg";

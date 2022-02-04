@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta property="og:title" content="The Code Maniac" key="ogtitle" />
+        <meta property="og:title" content="The CodeManiac" key="ogtitle" />
         <meta property="og:description" content="Get the most amazing set of problems, all at once. We provide you a whole list of code based questions segregated in terms of level, rating and topics. Start coding today!" key="ogdesc" />
         <meta name="twitter:card" content="summary" key="twcard" />
         <meta name="twitter:creator" content="https://twitter/nyctonio" key="twhandle" />
