@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>https://www.thecodemaniac.com/</loc>
-      <priority>1.0</priority>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/Math-i</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/Math-ii</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/Strings-i</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/Strings-ii</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/Sortings</loc>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/800-MISC</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/900-MISC</loc>
-      <changefreq>never</changefreq>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/EASY</loc>
-    </url>
-    <url>
-      <loc>https://www.thecodemaniac.com/SOON...</loc>
-      <priority>0.1</priority>
-    </url>
-
-</urlset>
+    <loc>undefined</loc>
+    <lastmod>2022-02-04T05:17:41.183Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>undefined/[slug]</loc>
+    <lastmod>2022-02-04T05:17:41.183Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  </urlset>
