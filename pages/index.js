@@ -12,7 +12,7 @@ export default function Home() {
           <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-200 mb-5">While(TheCodemaniac)&#123;Code++&#125;</h1>
           {/* <p class="mb-2 text-lg text-gray-200 xl:text-xl">For writers, a random sentence can help them get their creative juices flowing. </p> */}
 
-          <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-200 mb-5">LADDERS FOR YOU...</h1>
+          <h2 class="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-200 mb-5">LADDERS FOR YOU...</h2>
           <section class="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
             <Link href="/Math-i">
