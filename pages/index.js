@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
-import A from "assets/1.svg";
-import B from "assets/1.svg";
+import A from "assets/3.svg";
+import B from "assets/2.svg";
 import C from "assets/1.svg";
 import Image from "next/image";
 
