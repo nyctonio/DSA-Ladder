@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import Logo from "assets/Sitelogo.svg";
+import Logo from "assets/Logo.png";
 import Image from "next/image";
 import Whatsapp from "assets/whatsapp.svg";
 import Instagram from "assets/instagram.svg";
@@ -36,10 +36,10 @@ const header = ({ toggle, toggleMenu }) => {
             </div>
             <Link href='/'>
                 <div className="max-h-24 cursor-pointer font-mono text-2xl">
-                    <Image
+                <Image
                         src={Logo}
                         height={60}
-                        width={260}
+                        width={150}
                         alt="thecodemaniac"
                     />
                 </div>
